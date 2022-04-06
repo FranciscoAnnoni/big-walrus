@@ -6,6 +6,7 @@ import Footer from "./Footer";
 import * as Icons from "@material-ui/icons";
 import NavBar from "./NavBar";
 
+
 function Bar () {
 
   return(
@@ -18,7 +19,7 @@ function Bar () {
           
          
           <NavBar/>
-      
+        <body>
 
         <div className='banner-container' id='home'>
  
@@ -177,7 +178,7 @@ Walruses to encourage you to continue.
       
 
         <Footer />
-        
+        </body>
       </motion.div>
    
      
