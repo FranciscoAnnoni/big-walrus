@@ -90,10 +90,26 @@
      margin-right: -15%;
 }
 .bar-nav ul a {
+    cursor: pointer;
     text-decoration: none;
     font-size: 17px;
 }
 
+.nav-item .active{
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 17px;
+    color: #FF562E;
+    font-weight: bold;
+}
+
+.bar-nav ul a:hover {
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 17px;
+    color: #FF562E;
+    font-weight: bold;
+}
 
 #boton{
     font-weight: bold;

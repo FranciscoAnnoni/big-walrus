@@ -3,7 +3,7 @@ import './NavBar.css';
 import NavButtons from "./NavButtons";
 import {NavLink} from "react-router-dom";
 import React, {useState} from "react";
-
+import {Link} from 'react-scroll';
 
 const NavBar = () => {
 
@@ -27,11 +27,11 @@ const handleClick = () => {
          </div>
 
          <ul className={clicked ? "flex-items" : "flex-items close" }>
-           <li><a href='#home' onClick={handleClick} >HOME</a></li>
-           <li><a href='#second-section' onClick={handleClick} >ROAD MAP</a></li>
-           <li><a href='#galeria' onClick={handleClick} >MINI GALLERY</a></li>
-           <li><a href='#third-section' onClick={handleClick}>FAQ</a></li>
-           <li><a href='#team-container' onClick={handleClick}>ABOUT US</a></li>
+           <li className='nav-item'><Link to="home" spy={true} smooth={true} offset={0} duration={500} onClick={handleClick} >HOME</Link></li>
+           <li className='nav-item'><Link to="second-section" spy={true} smooth={true} offset={0} duration={500}  onClick={handleClick} >ROAD MAP</Link></li>
+           <li className='nav-item'><Link to='galeria' spy={true} smooth={true} offset={0} duration={500} onClick={handleClick} >MINI GALLERY</Link></li>
+           <li className='nav-item'><Link to='third-section' spy={true} smooth={true} offset={0} duration={500}  onClick={handleClick}>FAQ</Link></li>
+           <li className='nav-item'><Link to='team-container' spy={true} smooth={true} offset={-90} duration={500} onClick={handleClick}>ABOUT US</Link></li>
            <li><div><a href='https://opensea.io/collection/thebigwalerus-store/' target='_blank' rel="noreferrer" id='boton'>BUY A WALRUS</a></div></li>
          </ul>
 

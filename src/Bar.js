@@ -93,7 +93,8 @@ Walruses to encourage you to continue.
             
             </div>
             </div>
-
+            </div>
+            <div className='flex' id='second-section2'>
              <div id='galeria'>   
           <div className='flex' id='images'>
 
@@ -113,7 +114,7 @@ Walruses to encourage you to continue.
             
 
           </div>
-        </div>
+          </div>
         <div id='third-section'>
           <h1>FAQ</h1>
           <ul id='FAQ'>
