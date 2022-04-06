@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/big-walrus/static/css/main.c4f082e0.css",
-    "main.js": "/big-walrus/static/js/main.e5485e6b.js",
+    "main.js": "/big-walrus/static/js/main.b154d7df.js",
     "static/media/banner.mp4": "/big-walrus/static/media/banner.b26b922fe8f5fd16562c.mp4",
     "static/media/Camila.png": "/big-walrus/static/media/Camila.1476600ab6f89775e5e2.png",
     "static/media/Giuli.png": "/big-walrus/static/media/Giuli.799a9e1e0a63c17dc088.png",
@@ -21,10 +21,10 @@
     "static/media/Logotrasnparente.png": "/big-walrus/static/media/Logotrasnparente.55f959973385c7aab5b5.png",
     "index.html": "/big-walrus/index.html",
     "main.c4f082e0.css.map": "/big-walrus/static/css/main.c4f082e0.css.map",
-    "main.e5485e6b.js.map": "/big-walrus/static/js/main.e5485e6b.js.map"
+    "main.b154d7df.js.map": "/big-walrus/static/js/main.b154d7df.js.map"
   },
   "entrypoints": [
     "static/css/main.c4f082e0.css",
-    "static/js/main.e5485e6b.js"
+    "static/js/main.b154d7df.js"
   ]
 }
