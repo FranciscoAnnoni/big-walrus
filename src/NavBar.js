@@ -13,9 +13,6 @@ const handleClick = () => {
   setClicked(!clicked);
 };
 
-const clickPagina = () => {
-  setClicked(false);
-}
     return(
         <nav className='bar-nav' >
 
