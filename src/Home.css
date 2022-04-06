@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@1,700&display=swap');
+
+/* TITLE, LOGO AND BUTTONS */
+
+#home-logo {
+  height: 90px;
+  aspect-ratio: 1;
+}
+
+.home-title {
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+}
+
+.home-title h1 {
+  margin: 0;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+#thebig {
+  font-size: 30px;
+  margin-bottom: -10px;
+}
+
+#walrus {
+  margin-top: -10px;
+  font-size: 60px;
+}
+
+.buttons {
+  justify-content: right;
+  margin-top: -30px;
+  padding-bottom: 10px;
+  gap: 10px;
+  transform: translateY(-30px);
+}
+
+/* BANNER */
+
+#banner-container {
+  display: flex;
+  justify-content: center;
+  margin-top: -35px;
+  z-index: -1000;
+}
+
+#banner-container video {
+  width: 100%;
+}
+
+/*ENTER BUTTON*/
+
+#enter-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-self: end;
+    border-radius: 50px 0px 0px 0px;
+
+  width: 300px;
+  height: 210px;
+  /*background: #0E0D0D;*/
+  background:rgb(14,13,13, 0.94);
+
+  color: #F1F1F1;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size: 20px;
+
+  margin-top: -210px;
+  padding: 0px 10px 0px 30px;
+}
+
+#enter-bar #enter {
+  background: #FF562E;
+  border: none;
+  border-radius: 5px;
+  padding-block: 15px;
+
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: #F1F1F1;
+}
+
+#enter-bar #enter:hover {
+  background: #F1F1F1;
+  color: #FF562E;
+  transition: background 150ms ease-in;
+}
+
+#enter-bar #enter svg {
+  margin-bottom: -5px;
+}
