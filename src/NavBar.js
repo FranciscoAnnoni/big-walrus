@@ -25,15 +25,15 @@ const handleClick = () => {
              </div>
            </NavLink>
          </div>
-
-         <ul className={clicked ? "flex-items" : "flex-items close" }>
-           <li className='nav-item'><Link to="home" spy={true} smooth={true} offset={0} duration={500} onClick={handleClick} >HOME</Link></li>
-           <li className='nav-item'><Link to="second-section" spy={true} smooth={true} offset={0} duration={500}  onClick={handleClick} >ROAD MAP</Link></li>
-           <li className='nav-item'><Link to='galeria' spy={true} smooth={true} offset={0} duration={500} onClick={handleClick} >MINI GALLERY</Link></li>
-           <li className='nav-item'><Link to='third-section' spy={true} smooth={true} offset={0} duration={500}  onClick={handleClick}>FAQ</Link></li>
-           <li className='nav-item'><Link to='team-container' spy={true} smooth={true} offset={-90} duration={500} onClick={handleClick}>ABOUT US</Link></li>
-           <li><div><a href='https://opensea.io/collection/thebigwalerus-store/' target='_blank' rel="noreferrer" id='boton'>BUY A WALRUS</a></div></li>
-         </ul>
+  
+          <ul className={clicked ? "flex-items" : "flex-items close" } id="container"> 
+            <li className='nav-item'><Link to="home" spy={true} smooth={true} offset={0} duration={500} onClick={handleClick} >HOME</Link></li>
+            <li className='nav-item'><Link to="second-section" spy={true} smooth={true} offset={0} duration={500}  onClick={handleClick} >ROAD MAP</Link></li>
+            <li className='nav-item'><Link to='galeria' spy={true} smooth={true} offset={0} duration={500} onClick={handleClick} >MINI GALLERY</Link></li>
+            <li className='nav-item'><Link to='third-section' spy={true} smooth={true} offset={0} duration={500}  onClick={handleClick}>FAQ</Link></li>
+            <li className='nav-item'><Link to='team-container' spy={true} smooth={true} offset={-90} duration={500} onClick={handleClick}>ABOUT US</Link></li>
+            <li><div><a href='https://opensea.io/collection/thebigwalerus-store/' target='_blank' rel="noreferrer" id='boton'>BUY A WALRUS</a></div></li>
+          </ul>
 
          <div id='botonMorsa'>
            <a href='https://opensea.io/collection/thebigwalerus-store/' target='_blank' rel="noreferrer" >BUY A WALRUS</a>

@@ -178,13 +178,16 @@
     border-style:solid;
 }
 
+
+
+
 @media screen and (max-width: 1020px) {
 
 /*SON ITEMS QUE NO QUEREMOS QUE SE MUESTEN*/
     .nav-buttons {
         display: none !important;
     }
-    
+   
 
     #boton{
         display:none;
@@ -215,28 +218,37 @@
 
 
     .bar-nav ul {
-        width:100%;
         display:flex;
-        margin-left: -40px;
-
+        width: 95%;
+        margin-left: 0%;
+        margin-right: 0%;
+    
     }
 
     .flex-items{
-       width:100%;
-        z-index: 10000;
+
+        z-index:-10000;
         flex-direction: column;
         position: absolute;
         backdrop-filter: blur(5px);
   background:rgb(14,13,13, 0.7);
         padding-top: 30px;
         padding-bottom: 30px;
-        margin-top: 450px;
-        border-radius: 0 0 100px 100px;
+
         transition: all 0.5 ease-in-out;
+
     }
+
+     
+    #container{
+        padding-top: 400px;
+
+    }
+    
     .flex-items li{
-        width: 100%;
+        
         text-align: center;
+        margin-left: -50px;
     }
     .flex-items li:hover{
         border-radius: 10px;
@@ -288,4 +300,11 @@
     }
 
 
+}
+
+@media screen and (max-width: 650px) {
+
+
+
+    
 }
