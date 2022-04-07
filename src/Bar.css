@@ -391,7 +391,22 @@ div#tihrd-section{
     font-size: 18px;
     margin-bottom: 50px;
 }
-
+.flex-1{
+    display: -webkit-box;   /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+display: -ms-flexbox;  /* TWEENER - IE 10 */
+display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+display: flex; 
+    display: flex;
+    justify-content: center;
+}
+.flex-2{
+    display: -webkit-box;   /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+display: -ms-flexbox;  /* TWEENER - IE 10 */
+display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+display: flex; 
+    display: flex;
+    justify-content: center;
+}
 #fourth-section #team-images {
     flex-wrap: wrap;
     justify-content: center;
@@ -399,6 +414,7 @@ div#tihrd-section{
     gap: 15px;
     width: 45%;
     margin-top: 10px;
+
 }
 #fourth-section img {
     width: 40%;
@@ -488,13 +504,117 @@ div#tihrd-section{
     padding: 0;
     }
 
-
-    
 }
+
 @media screen and (max-width: 650px) {
 
+    .banner-container img {
+        width: 140%;
+       margin-right: 60px;
+    }
 
 
+    .banner-container{
+        overflow: hidden;
+    }
 
+    #below-banner{
+        text-align: center;
+    }
+
+#below-banner h1 {
+    margin-top: 32px;
+    margin-left: 0px;
+    margin-left: -10px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-style: italic;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+#below-banner p {
+    font-size: 15px;
+    margin-bottom: 40px;
+    margin-top: 10px;
+    margin-left: 0px;
+
+}
+
+#subtituloPrincipal {
+    display: inline;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 10px;
+   
+}
+
+#colorNaranja {
+    font-family: 'Roboto', sans-serif;
+    color: #FF562E;
+    font-size: 14px;
+     display: block; 
+     text-align: center;
+}
+
+#ProgetDefinition {
+    font-weight: initial;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16.5px;
+    line-height: 26px;
+    text-align: center;
+}
+
+#second-section{
+margin-top: -80px;
+}
+
+#second-section #roadmap img {
+    width: 90%;
+    margin-left: 3%;
+}
+
+#roadmap {
+    margin-left: 0%;
+
+}
+#RoadMap1{
+margin-left: 50px;
+}
+
+#text{
+    text-align: center;
+}
+
+.flex-1{
+    display:block;
+    align-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 20px;
     
+}
+
+
+#second-section2 #images {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+    gap: 45px;
+    padding-top: 80px;
+}
+#images img{
+    padding: 6px;
+}
+
+.flex-2{
+    display:block;
+    align-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
 }

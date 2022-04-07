@@ -16,7 +16,8 @@ function Bar () {
           animate={{opacity: 1, y: 0}}
           exit={{opacity: 0, y: 0}}
         className='common-container flex'>
-          
+
+
          
           <NavBar/>
 
@@ -56,7 +57,7 @@ function Bar () {
           <h1>ROAD MAP</h1>
 
           <div id='roadmap'>
-            <img src={require('./assets/roadmap-01.png')} alt='RoadMap1'/>
+            <img src={require('./assets/roadmap-01.png')} alt='RoadMap1' id="RoadMap1"/>
             
 
             
@@ -96,7 +97,7 @@ Walruses to encourage you to continue.
             </div>
             <div className='flex' id='second-section2'>
              <div id='galeria'>   
-          <div className='flex' id='images'>
+          <div className='flex-1' id='images'>
 
             <img className='zoom' src={require('./assets/morsas/3.png')} alt='morsa'/>
             <img className='zoom' src={require('./assets/morsas/6.png')} alt='morsa'/>
@@ -166,7 +167,7 @@ Walruses to encourage you to continue.
               <li><h4>EDWARD TEACH:</h4> Loves to be in the tavern with the walruses</li>
             </ul>
           </div>
-          <div id='team-images' className='flex'>
+          <div id='team-images' className='flex-2'>
             <img src={require('./assets/Francisco.png')} alt='morsa'/>
             <img src={require('./assets/Giuli.png')} alt='morsa'/>
             <img src={require('./assets/Camila.png')} alt='morsa'/>
