@@ -33,8 +33,15 @@
   justify-content: right;
   margin-top: -30px;
   padding-bottom: 10px;
+
   gap: 10px;
   transform: translateY(-30px);
+}
+
+.footer-buttons {
+  margin-top: 20px;
+
+  gap: 10px;
 }
 
 /* BANNER */
@@ -43,10 +50,12 @@
   display: flex;
   justify-content: center;
   margin-top: -35px;
-  z-index: -1000;
+
 }
 
-#banner-container video {
+
+.banner-video{
+  z-index: -1000;
   width: 100%;
 }
 
@@ -77,7 +86,7 @@
   border: none;
   border-radius: 5px;
   padding-block: 15px;
-
+  margin-right: 20px;
   text-align: center;
   font-size: 20px;
   font-weight: bold;
@@ -92,4 +101,258 @@
 
 #enter-bar #enter svg {
   margin-bottom: -5px;
+}
+
+#banner-container2{
+  display: none;
+}
+/*---------------ENTER ANIMACION--------------------------*/
+.animacion {
+  margin-left: 40px;
+  margin-top: -22px;
+  margin-right: 12px;
+  padding-bottom: 10px;
+  animation-name: movimiento;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+
+@keyframes movimiento{
+  from{transform: translateX(28px);}
+  to{transform: translateX(60px);}
+}
+/*-------------------------------------------*/
+/*-------------BOTONES EN EL MEDIO  ------------*/
+#botones1 a{
+  display: none !important;
+}
+
+/*-------------------------------------------------------------*/
+/*-------------oPENSEA Y SOLANA BOTONES ABAJO ------------*/
+#solanaOpenSea{
+	display: none;
+   flex-direction: row;
+justify-content: center;
+align-items: center;
+margin-bottom: 10px;
+}
+
+#solanaOpenSea img{
+  height: 30px;
+  margin: 30px;
+}
+/*-------------------------------------------------------------*/
+
+
+
+@media screen and (max-width: 1020px) {
+
+
+  #enter-bar {
+    align-self: none;
+    border-radius: 0px 0px 0px 0px;
+    /*background: #0E0D0D;*/
+    backdrop-filter: blur(5px);
+    background:rgb(14,13,13, 0.7);
+    color: #F1F1F1;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-style: italic;
+    font-size: 15px;
+    margin-top: -190px;
+    
+    padding: 0px 10px 0px 30px;
+    border-radius: 30px 0px 0px 0px;
+  }
+
+  .buttons {
+    justify-content: right;
+    margin-top: -30px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    gap: 20px;
+
+  }
+  #home-logo {
+    margin-top:20px ;
+    height: 90px;
+    aspect-ratio: 1;
+  }
+  
+  .home-title {
+    margin-top:10px ;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+  }
+  
+  .home-title h1 {
+    margin: 0;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-style: italic;
+    /*font-family: "Montserrat",sans-serif;*/
+  }
+
+  
+footer {
+  justify-content: center !important;
+  align-items: center !important;
+}
+footer #logos {
+  display: none !important;
+}
+
+#solanaOpenSea{
+	display: flex;
+   flex-direction: row;
+justify-content: center;
+align-items: center;
+margin-bottom: 10px;
+}
+
+#solanaOpenSea img{
+  height: 30px;
+  margin: 30px;
+}
+
+
+}
+
+@media screen and (max-width: 650px) {
+
+  #banner-container {
+    display: none;
+    
+  }
+  #banner-container2 {
+    display: flex;
+    justify-content: center;
+    margin-top: -35px;
+    overflow: hidden;
+  }
+  #banner-container video {
+    width: 100%;
+
+  }
+
+  .banner-video2{
+    z-index: -1000;
+    width: 140%;
+    margin-right: 35px;
+  }
+
+
+  #enter-bar {
+    
+    display: flex;
+    /*background: #0E0D0D;*/
+    backdrop-filter: blur(3px);
+  background:rgb(14,13,13, 0.4);
+    
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 10.2px;
+    margin-top: -15px;
+    padding-top: 100px;
+    padding: 0px 10px 0px 30px;
+    flex-direction: column;
+    align-content: center;
+    align-self: center;
+    text-align: center;
+    width: 80%;
+    height: 160px;
+    border-radius: 25px 25px 0px 0px ;
+  }
+
+
+   #enter-bar h1 {
+
+    margin-top:40px;
+    margin-left: 0;
+    margin-right: 20px;
+  }
+
+  .buttons {
+    display:none;
+    justify-content: space-between;
+    margin-top: -30px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 15px;
+    gap: 20px;
+
+  }
+  #home-logo {
+    margin-top:20px ;
+    height: 90px;
+    aspect-ratio: 1;
+  }
+  
+  .home-title {
+    margin-top:10px ;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+  }
+  
+  .home-title h1 {
+    margin-top: 10px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-style: italic;
+
+  }
+
+  #thebig {
+    font-size: 20px;
+    margin-bottom: -10px;
+  }
+  
+  #walrus {
+    margin-top: -20px;
+    font-size: 50px;
+  }
+  
+
+.footer-buttons {
+  margin-top: 5px;
+  gap: 30px !important;
+  margin-bottom: 30px;
+      flex-direction: row;
+    justify-content: center !important;
+    align-content: center;
+    align-items: center;
+}
+
+#enter-bar #enter {
+  margin-top: 5px;
+  background: #FF562E;
+  border: none;
+  border-radius: 5px;
+  padding-block: 15px;
+  margin-right: 20px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  color: #F1F1F1;
+}
+
+.animacion {
+  margin-left: 50px;
+  margin-top: -24px;
+  margin-right: 1px;
+  padding-bottom: 10px;
+  animation-name: movimiento;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+
+@keyframes movimiento{
+  from{transform: translateX(30px);}
+  to{transform: translateX(60px);}
+}
+
+
+
 }

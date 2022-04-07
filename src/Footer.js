@@ -8,13 +8,13 @@ function Footer() {
       <footer className='flex'>
         <div id='logos'>
         <a href='https://opensea.io/collection/thebigwalerus-store/'  target='_blank' rel="noreferrer">
-          <img src={require('./assets/TheBigWalrus.png')} alt='TheBigWalrus'  />
+          <img className="logo1" src={require('./assets/TheBigWalrus.png')} alt='TheBigWalrus'  />
         </a>
         <a href='https://solana.com/ecosystem/'  target='_blank' rel="noreferrer">
-          <img src={require('./assets/Solana.png')}  alt='Solana' />
+          <img  className="logo2" src={require('./assets/Solana.png')}  alt='Solana' />
         </a>
         <a  href='https://opensea.io/' target='_blank' rel="noreferrer">
-          <img src={require('./assets/OpenSea.png')} alt='OpenSea' />
+          <img className="logo3" src={require('./assets/OpenSea.png')} alt='OpenSea' />
         </a>
         </div>
         <div>

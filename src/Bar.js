@@ -19,7 +19,6 @@ function Bar () {
           
          
           <NavBar/>
-        <body>
 
         <div className='banner-container' id='home'>
  
@@ -178,7 +177,7 @@ Walruses to encourage you to continue.
       
 
         <Footer />
-        </body>
+
       </motion.div>
    
      

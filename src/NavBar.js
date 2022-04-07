@@ -17,7 +17,7 @@ const handleClick = () => {
         <nav className='bar-nav' >
 
         <div className="botonWalrus" >
-           <NavLink to={'/'} className='flex' id='logo-nav'>
+           <NavLink to={'/big-walrus'} className='flex' id='logo-nav'>
              <img src={require('./assets/Logotrasnparente.png')} alt='logo' id="centrar-img"/>
              <div>
                <h2 id='logo-big'>THE BIG</h2>

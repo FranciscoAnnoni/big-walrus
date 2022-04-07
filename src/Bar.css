@@ -486,13 +486,5 @@ div#tihrd-section{
     }
 
 
-    footer {
-        justify-content: center !important;
-        align-items: center !important;
-    }
-    footer #logos {
-        display: none !important;
-    }
-
     
 }

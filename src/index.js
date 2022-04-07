@@ -11,8 +11,8 @@ ReactDOM.render(
     <Router>
       <AnimatePresence>
         <Switch>
-          <Route exact path='/' component={Home} />
-          <Route exact path='/bar' component={Bar} />
+          <Route exact path='/big-walrus' component={Home} />
+          <Route exact path='/big-walrus/bar' component={Bar} />
         </Switch>
       </AnimatePresence>
     </Router>

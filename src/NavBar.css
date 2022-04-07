@@ -211,10 +211,7 @@
         transition:  350ms ease-in;
     }
 
-    .menu-icon:hover{
-        transform: rotate(180deg);
-        transition:  350ms ease-in;
-    }
+
 
     .bar-nav ul {
         width:100%;
