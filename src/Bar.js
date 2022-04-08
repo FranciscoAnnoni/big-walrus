@@ -41,12 +41,13 @@ function Bar () {
             <h2 id='walrus'>WALRUS</h2>
 
             <p id='ProgetDefinition'> 
-            <b>The Big Walrus (TBW)</b> is a collection of Non-Fungible Tokens living on Solana blockchain, punlish on OpenSea. <br />
+            <b>The Big Walrus (TBW)</b> is a collection of Non-Fungible Tokens living on Solana blockchain, publish on OpenSea. <br />
             NFTs are <b> immutable and forever </b>. We only have one chance to do it right, so we obsess over  <b> quality </b> and review all  <b> details </b>.
-            That's why we decided to make each Big Walrus NFT by hand in a completely  <b id= 'SoloEnNegrita'> handmade </b> way , making The Big Walrus a   <b> unique collection </b>. 
-            The liquidity of the collection is very limited, for the work and the time that it takes to carry out each one of them.<br />
-            Anyway, when you buy a Big Walrus you are not only paying for the art of the drawing, but doubles as your  <b id= 'SoloEnNegrita'> Big Walrus membership card </b>, 
-            and grants access to <b> members-only benefits </b> , which are described in the <a id= 'SoloEnNegrita' href='#second-section'> Road Map </a>. <br />
+            That is why we decided to make each NFT <b>by hand</b>, generating a <b>unique </b> and <b> incomparable</b> collection, 
+            for this reason <b>the liquidity</b> of the collection <b>is very limited.</b><br /> 
+            In addition, when you buy a big walrus you are not paying only for art, 
+            but also to be part of the <b id= 'SoloEnNegrita'> Big Walrus membership card </b>, 
+            and grants access to <b> Members-Only </b> benefits , which are described in the <a id= 'SoloEnNegrita' href='#second-section'> Road Map </a>. <br />
             Future areas and perks can be <b > unlocked by the community </b> through <a id= 'SoloEnNegrita' href='#second-section'> Road Map </a> activation.<br />
             </p>
           </div>
@@ -64,7 +65,7 @@ function Bar () {
             <div id='text'>
             <h2 id='referencias'>REFERENCES:</h2>
 
-            <h3>THE BEGINNING</h3> <span className="colorChicoNaranja"> <b> (starting point)</b></span>
+            <h3>THE BEGINNING</h3> <span className="colorChicoNaranja"> <br /> <b> (starting point)</b></span>
             <p> 
             We start owr journey in search of the lost treasure by launching. The Big Walrus NFT, with a Mint price of <b>0.3 SOL</b>
             </p>
@@ -73,23 +74,23 @@ function Bar () {
              Once we have owr first 25 sales, we will get to the famous wicked palm trees. This place is no piece of cake, so we decided  to drop The Big Gold
 Walruses to encourage you to continue.
             </p>
-            <h4>2. </h4><h3>THE BEGINNING</h3><br />  <span className="colorChicoNaranja"> <b> (15 Big Walruses will be given away and everyone can participate)</b></span>
+            <h4>2. </h4><h3>THE CAVE</h3><br />  <span className="colorChicoNaranja"> <b> (15 Big Walruses will be given away and everyone can participate)</b></span>
             <p> 
             Since we started, we have become a strong community!  But when we get to the cave, we will see that there will be many people who will want to join us, so for them we are going to give away some Walruses to allow them to be part of the team!
             </p>
-            <h4>3. </h4><h3>THE BEGINNING</h3> <br /> <span className="colorChicoNaranja">  <b>(30 Tematic NFTs released whit a mint price: 0,6 SOL)</b></span>
+            <h4>3. </h4><h3>SKULL MOUNTAIN</h3> <br /> <span className="colorChicoNaranja">  <b>(30 Tematic NFTs released whit a mint price: 0,6 SOL)</b></span>
             <p> 
             By reaching 75 sales, we will have gotten to the skull mountain. For this we will launch The Tematic Big Walrus (TTBW), with a Mint Price: 0.6 SOL.
             </p>
-            <h4>4. </h4><h3>THE BEGINNING</h3><span className="colorChicoNaranja"> <b> (top-secret)</b></span>
+            <h4>4. </h4><h3>THE BIG DUNE</h3> <br /><span className="colorChicoNaranja"> <b> (top-secret)</b></span>
             <p> 
             If we start to see nothing else but sand, it means that we reached the big dune. Here is where we found a gold doubloon, this doubloon will be delivered to all of The Big Walrus holders, which will serve as an entrance pass to a special place...
             </p>
-            <h4>5. </h4><h3>THE BEGINNING</h3><br /> <span className="colorChicoNaranja">  <b>(5 Big Unique Walruses will be drop to holders, Mint Price:__?)</b></span>
+            <h4>5. </h4><h3>THE WALRUS BAR</h3><br /> <span className="colorChicoNaranja">  <b>(5 Big Unique Walruses will be drop to holders, Mint Price:__?)</b></span>
             <p> 
             After a couple of days of travel we find 5 pirate walruses that drink in the tavern, you will know which ones they are?
             </p>
-             <h4>?. </h4><h3>TO BE CONTINUED...</h3><span className="colorChicoNaranja"><b>  (See you next chapter)</b></span>
+             <h4>?. </h4><h3>TO BE CONTINUED...</h3> <br /><span className="colorChicoNaranja"><b>  (See you next chapter)</b></span>
    
             
             </div>
