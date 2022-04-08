@@ -111,6 +111,8 @@ Walruses to encourage you to continue.
           <img  src={require('./assets/LogoNaranja.png')} alt='morsaLogo' width="3.2%" id='logoNaranja'/>
 
           <p><b> To get your Walrus, check out the collection on OpenSea</b></p>
+
+
             <a id='button-buy' href='https://opensea.io/collection/thebigwalerus-store/' target='_blank' rel="noreferrer" > <b> BUY A WALRUS ON OPENSEA</b></a>
             
 
@@ -161,10 +163,10 @@ Walruses to encourage you to continue.
             <h1>THE TEAM</h1>
             <p> Made up of 4 old friends who met in college, TBW team is made up of people with a clear objective and an achievable goal.</p>
             <ul id='team'>
-              <li><h4>DOCTOR GRANT: </h4>  Loves dinosaurs but 's a bit dyslexic</li>
-              <li><h4>STEVEN:</h4>  Addicted to the series but draws well</li>
-              <li><h4>FIELD GARMET:</h4> Drinks "mate" all day, but 's smart.</li>
-              <li><h4>EDWARD TEACH:</h4> Loves to be in the tavern with the walruses</li>
+              <li><h4>DOCTOR GRANT: </h4>  <p>Loves dinosaurs but 's a bit dyslexic </p> </li>
+              <li><h4>STEVEN:</h4>  <p>Addicted to the series but draws well</p></li>
+              <li><h4>FIELD GARMET:</h4> <p>Drinks "mate" all day, but 's smart.</p></li>
+              <li><h4>EDWARD TEACH:</h4> <p>Loves to be in the tavern with the walruses</p></li>
             </ul>
           </div>
           <div id='team-images' className='flex-2'>
