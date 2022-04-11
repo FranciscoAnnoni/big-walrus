@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/big-walrus/static/css/main.8cc79eed.css",
-    "main.js": "/big-walrus/static/js/main.3fc35e1c.js",
+    "main.css": "/big-walrus/static/css/main.b0296f18.css",
+    "main.js": "/big-walrus/static/js/main.2bdb1732.js",
     "static/media/Camila.png": "/big-walrus/static/media/Camila.1476600ab6f89775e5e2.png",
     "static/media/Giuli.png": "/big-walrus/static/media/Giuli.799a9e1e0a63c17dc088.png",
     "static/media/Santiag.png": "/big-walrus/static/media/Santiag.90e81c1438ffc40fb927.png",
@@ -20,11 +20,11 @@
     "static/media/LogoBlanco.png": "/big-walrus/static/media/LogoBlanco.fd2692a45fabd6aaba45.png",
     "static/media/Logotrasnparente.png": "/big-walrus/static/media/Logotrasnparente.55f959973385c7aab5b5.png",
     "index.html": "/big-walrus/index.html",
-    "main.8cc79eed.css.map": "/big-walrus/static/css/main.8cc79eed.css.map",
-    "main.3fc35e1c.js.map": "/big-walrus/static/js/main.3fc35e1c.js.map"
+    "main.b0296f18.css.map": "/big-walrus/static/css/main.b0296f18.css.map",
+    "main.2bdb1732.js.map": "/big-walrus/static/js/main.2bdb1732.js.map"
   },
   "entrypoints": [
-    "static/css/main.8cc79eed.css",
-    "static/js/main.3fc35e1c.js"
+    "static/css/main.b0296f18.css",
+    "static/js/main.2bdb1732.js"
   ]
 }
