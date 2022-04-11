@@ -173,7 +173,7 @@ Walruses to encourage you to continue.
               <img src={require('./assets/Santiag.png')} alt='morsa' id="Edward-Teach"/>
               <li><h4>BNGOL:</h4> <p>Drinks "mate" all day, but 's smart.</p></li>
               <img src={require('./assets/Camila.png')} alt='morsa' id="Field-Garmet"/>
-              <li><h4>STARFISH:</h4> <p>Loves to be in the tavern with the walruses</p></li>
+              <li><h4>LITTLE STARFISH:</h4> <p>Loves to be in the tavern with the walruses</p></li>
               
             </ul>
           </div>
