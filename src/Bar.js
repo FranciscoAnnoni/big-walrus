@@ -9,6 +9,7 @@ import NavBar from "./NavBar";
 
 function Bar () {
 
+
   return(
 
       <motion.div
@@ -42,12 +43,12 @@ function Bar () {
 
             <p id='ProgetDefinition'> 
             <b>The Big Walrus (TBW)</b> is a collection of Non-Fungible Tokens living on Solana blockchain, publish on OpenSea. <br />
-            NFTs are <b> immutable and forever </b>. We only have one chance to do it right, so we obsess over  <b> quality </b> and review all  <b> details </b>.
+            NFTs are <b> immutable and forever.</b> We only have one chance to do it right, so we obsess over <b> quality </b> and review all <b> details. </b>
             That is why we decided to make each NFT <b>by hand</b>, generating a <b>unique </b> and <b> incomparable</b> collection, 
             for this reason <b>the liquidity</b> of the collection <b>is very limited.</b><br /> 
             In addition, when you buy a big walrus you are not paying only for art, 
             but also to be part of the <b id= 'SoloEnNegrita'> Big Walrus membership card </b>, 
-            and grants access to <b> Members-Only </b> benefits , which are described in the <a id= 'SoloEnNegrita' href='#second-section'> Road Map </a>. <br />
+            and grants access to <b> Members-Only </b> benefits, which are described in the <a id= 'SoloEnNegrita' href='#second-section'> Road Map </a>. <br />
             Future areas and perks can be <b > unlocked by the community </b> through <a id= 'SoloEnNegrita' href='#second-section'> Road Map </a> activation.<br />
             </p>
           </div>
@@ -171,10 +172,12 @@ Walruses to encourage you to continue.
             </ul>
           </div>
           <div id='team-images' className='flex-2'>
-            <img src={require('./assets/Francisco.png')} alt='morsa'/>
-            <img src={require('./assets/Giuli.png')} alt='morsa'/>
-            <img src={require('./assets/Camila.png')} alt='morsa'/>
-            <img src={require('./assets/Santiag.png')} alt='morsa'/>
+
+            <img src={require('./assets/Francisco.png')} alt='morsa'  onmouseover="this.src={require('./assets/Francisco.png')}" onmouseout="this.src={require('./assets/Camila.png')}"/>
+            <img src={require('./assets/Giuli.png')} alt='morsa' id="Steven"/>
+            <img src={require('./assets/Camila.png')} alt='morsa' id="Field-Garmet"/>
+            <img src={require('./assets/Santiag.png')} alt='morsa' id="Edward-Teach"/>
+
           </div>
         </div>
         <div className='separator'/>
@@ -183,8 +186,9 @@ Walruses to encourage you to continue.
         <Footer />
 
       </motion.div>
-   
-     
+
+
+
   )
 }
 
