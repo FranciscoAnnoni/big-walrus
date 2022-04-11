@@ -21,7 +21,7 @@ function Footer() {
           <div className='footer-buttons flex'>
             <NavButtons />
           </div>
-          <p id='rights'>@2021 TBW.TheBigWalrus<br/>All Rights Reserved.</p>
+          <p id='rights'><b>©2022 TBW </b><br/> TheBigWalrus.Store<br/>All Rights Reserved.</p>
         </div>
       </footer>
   )
