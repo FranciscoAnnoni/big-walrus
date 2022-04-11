@@ -165,18 +165,24 @@ Walruses to encourage you to continue.
             <h1>THE TEAM</h1>
             <p> Made up of 4 old friends who met in college, TBW team is made up of people with a clear objective and an achievable goal.</p>
             <ul id='team'>
+            <img src={require('./assets/Francisco.png')} alt='morsa' id="DoctorGrant"/>
               <li><h4>DOCTOR GRANT: </h4>  <p>Loves dinosaurs but 's a bit dyslexic </p> </li>
+              <img src={require('./assets/Giuli.png')} alt='morsa' id="Steven"/>
               <li><h4>STEVEN:</h4>  <p>Addicted to the series but draws well</p></li>
-              <li><h4>FIELD GARMET:</h4> <p>Drinks "mate" all day, but 's smart.</p></li>
-              <li><h4>EDWARD TEACH:</h4> <p>Loves to be in the tavern with the walruses</p></li>
+              
+              <img src={require('./assets/Santiag.png')} alt='morsa' id="Edward-Teach"/>
+              <li><h4>BNGOL:</h4> <p>Drinks "mate" all day, but 's smart.</p></li>
+              <img src={require('./assets/Camila.png')} alt='morsa' id="Field-Garmet"/>
+              <li><h4>STARFISH:</h4> <p>Loves to be in the tavern with the walruses</p></li>
+              
             </ul>
           </div>
           <div id='team-images' className='flex-2'>
 
-            <img src={require('./assets/Francisco.png')} alt='morsa'  onmouseover="this.src={require('./assets/Francisco.png')}" onmouseout="this.src={require('./assets/Camila.png')}"/>
-            <img src={require('./assets/Giuli.png')} alt='morsa' id="Steven"/>
-            <img src={require('./assets/Camila.png')} alt='morsa' id="Field-Garmet"/>
-            <img src={require('./assets/Santiag.png')} alt='morsa' id="Edward-Teach"/>
+            <img src={require('./assets/Francisco.png')} alt='morsa'/>
+            <img src={require('./assets/Giuli.png')} alt='morsa' />
+            <img src={require('./assets/Camila.png')} alt='morsa'/>
+            <img src={require('./assets/Santiag.png')} alt='morsa' />
 
           </div>
         </div>

@@ -361,9 +361,9 @@ div#tihrd-section{
 
 /*FOURTH SECTION*/
 #fourth-section {
-    padding-block: 80px;
     justify-content: space-around;
-    padding-top: 150px;
+    padding-top: 130px;
+    padding-bottom: 30px;
 }
 
 #fourth-section h1 {
@@ -436,12 +436,55 @@ display: flex;
     display: none !important;
 }
 
+#DoctorGrant{
+    display: none;
+}
 
+#Steven{
+    display: none;
+}
+#Field-Garmet{
+    display: none;
+}
+#Edward-Teach{
+    display: none;
+}
 
 
 /* MEDIA QUERYS */
 
 @media screen and (max-width: 1020px) {
+
+    #DoctorGrant{
+        display: block;
+        justify-content: center !important;
+        align-items: center !important;
+        margin: auto;
+    }
+    
+    #Steven{
+        display: block;
+        justify-content: center !important;
+        align-items: center !important;
+        margin: auto;
+    }
+    #Field-Garmet{
+        display: block;
+        justify-content: center !important;
+        align-items: center !important;
+        margin: auto;
+    }
+    #Edward-Teach{
+        display: block;
+        justify-content: center !important;
+        align-items: center !important;
+        margin: auto;
+    }
+
+    #team-images{
+        display: none;
+ 
+    }
 
     
     #below-banner h1 {
@@ -520,11 +563,18 @@ display: flex;
 
 @media screen and (max-width: 650px) {
 
+    #fourth-section img {
+        width: 54%;
+    }
     .banner-container img {
         width: 140%;
        margin-right: 60px;
     }
 
+    .footer-buttons {
+
+        margin-left: 0;
+    }
 
     .banner-container{
         overflow: hidden;
