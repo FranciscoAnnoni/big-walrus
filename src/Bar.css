@@ -269,7 +269,8 @@ margin-bottom: 10px;
     margin-left: 5px;
     color: #dd6946;
 }
-
+/*--------BUY WALRUS BELOW IMAGES --------*/
+/*
 #second-section2 #below-images a {
     background: #FF562E;
     padding: 15px 15px;
@@ -285,7 +286,32 @@ margin-bottom: 10px;
     color: #FF562E;
     transition: background 150ms ease-in;
 }
+*/
+#second-section2 #below-images a {
+    background: #0E0D0D;
+    color:white;
+    transition: background 150ms ease-in;
+
+    padding: 15px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 1px;
+    cursor: not-allowed;
+    border-color:white;
+    border-width: 2px;
+    border-style:solid;
+    opacity: 50%;
+}
+
+
 /*-------------------------------------------------------------*/
+
+
+
+
+
 .zoom {
     background-position: bottom;
     transition:transform .5s;
@@ -710,6 +736,8 @@ margin-left: 50px;
     align-items: center !important;
 
 }
+/* -------------------SECOND SECIOTN BOTON  BUY
+
 
 #second-section2 #below-images a {
     display: block;
@@ -726,17 +754,42 @@ margin-left: 50px;
       margin-right: 5%;
     
 }
-div#below-images{
-    margin:0;
-    text-align: center;
-    
-}
+
+
 #second-section2 #below-images a:hover {
     background: #F1F1F1;
     color: #FF562E;
     transition: background 150ms ease-in;
 }
+*/
+#second-section2 #below-images a {
+    display: block;
+    border-color:white;
+    border-width: 2px;
+    border-style:solid;
+    opacity: 50%; background: #0E0D0D;
+    color:white;
+    transition: background 150ms ease-in;
+    padding: 14px 13px;
+    border-radius: 5px;
+    color: #F1F1F1;
+    font-size: 17px;
+    font-family: 'Inter', sans-serif;
+    font-style: bold;
+    letter-spacing: 1px;
+    justify-content: center !important;
+    align-items: center !important;
+      margin-right: 5%;
+    
+}
 
+
+/*--------------------------------------------------------*/
+div#below-images{
+    margin:0;
+    text-align: center;
+    
+}
 
 
 #third-section{

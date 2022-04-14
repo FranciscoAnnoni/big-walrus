@@ -38,7 +38,7 @@ function Home() {
 
       <div id='enter-bar'>
         <h1 className="benechupapija">WELCOME TO THE BIG WALRUS BAR</h1>
-        <NavLink  id='enter' to={'/TheBigWalrus/Bar'}>ENTER <div className="flex animacion"><Icons.ArrowForward /> </div> </NavLink>
+        <NavLink  id='enter' to={'/Bar'}>ENTER <div className="flex animacion"><Icons.ArrowForward /> </div> </NavLink>
       </div>
 
       <div id='solanaOpenSea'>

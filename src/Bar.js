@@ -68,28 +68,38 @@ function Bar () {
 
             <h3>THE BEGINNING</h3> <span className="colorChicoNaranja"> <br /> <b> (starting point)</b></span>
             <p> 
-            We start owr journey in search of the lost treasure by launching. The Big Walrus NFT, with a Mint price of <b>0.3 SOL</b>
+            We start owr journey in search of The Lost Treasure. <br /> 
+            <b> &#x2022;</b> We drop 25 special Wlaruses <b>at once.</b> <br />
+            <b> &#x2022;</b> Mint price: <b> 0.3 SOL</b> <b> &#x2022;</b> Item: 25 special <b> &#x2022;</b> Public Giveway
+            
             </p>
             <h4>1. </h4><h3>WICKED PALM TREES</h3><br /> <span className="colorChicoNaranja"> <b> (Drop 10 Big Golded Walruses to random holders)</b></span>
             <p> 
-             Once we have owr first 25 sales, we will get to the famous wicked palm trees. This place is no piece of cake, so we decided  to drop The Big Gold
-Walruses to encourage you to continue.
+             When we reach 25 sales, we will get to the wicked palm trees. <br /> 
+             <b> &#x2022;</b> We drop 25 common Wlaruses.<br />
+             <b> &#x2022;</b> Mint price: <b> (0.3 - 0.4 SOL)</b> <b> &#x2022; </b> Item: 25 common<b> &#x2022;</b> <b>Holders Giveway</b>
             </p>
-            <h4>2. </h4><h3>THE CAVE</h3><br />  <span className="colorChicoNaranja"> <b> (15 Big Walruses will be given away and everyone can participate)</b></span>
+            <h4>2. </h4><h3>THE CAVE</h3><br />  <span className="colorChicoNaranja"> <b> (There will be a Big Giveway and everyone can participate)</b></span>
             <p> 
-            Since we started, we have become a strong community!  But when we get to the cave, we will see that there will be many people who will want to join us, so for them we are going to give away some Walruses to allow them to be part of the team!
+            We arrived at a cave, and many people wanted to join us.<br /> 
+            <b> &#x2022;</b> We drop 25 common-rare Wlaruses.<br />
+            <b> &#x2022;</b> Mint price: <b>0.4 SOL</b> <b> &#x2022;</b> Item: 25 (common-rare) <b> &#x2022;</b> <b>Special Giveaway</b>   
             </p>
-            <h4>3. </h4><h3>SKULL MOUNTAIN</h3> <br /> <span className="colorChicoNaranja">  <b>(30 Tematic NFTs released whit a mint price: 0,6 SOL)</b></span>
+            <h4>3. </h4><h3>SKULL MOUNTAIN</h3> <br /> <span className="colorChicoNaranja">  <b>(25 Super rare Tematic NFTs released whit a mint price: 0,6 SOL)</b></span>
             <p> 
-            By reaching 75 sales, we will have gotten to the skull mountain. For this we will launch The Tematic Big Walrus (TTBW), with a Mint Price: 0.6 SOL.
+            By reaching 75 sales, we will have gotten to the skull mountain.<br /> 
+            <b> &#x2022;</b> For this we will launch <b> The Tematic Big Walrus (TTBW)</b>. <br /> 
+            <b> &#x2022;</b> Mint price: <b>0.6 SOL</b> <b> &#x2022;</b> Item: 25 (<b> super rare tematic </b>)
             </p>
             <h4>4. </h4><h3>THE BIG DUNE</h3> <br /><span className="colorChicoNaranja"> <b> (top-secret)</b></span>
             <p> 
-            If we start to see nothing else but sand, it means that we reached the big dune. Here is where we found a gold doubloon, this doubloon will be delivered to all of The Big Walrus holders, which will serve as an entrance pass to a special place...
+            Once we arrive at the big dune, we will find a <b>Gold Doubloon</b> that will be given to all of The Big Walrus holders.<br /> 
+            <b> &#x2022;</b><b> Which will serve as an entrance pass to a special place...</b>
             </p>
-            <h4>5. </h4><h3>THE WALRUS BAR</h3><br /> <span className="colorChicoNaranja">  <b>(5 Big Unique Walruses will be drop to holders, Mint Price:__?)</b></span>
+            <h4>5. </h4><h3>THE WALRUS BAR</h3><br /> <span className="colorChicoNaranja">  <b>(5 Big Unique Walruses will be drop, Mint Price:__?)</b></span>
             <p> 
-            After a couple of days of travel we find 5 pirate walruses that drink in the tavern, you will know which ones they are?
+            After a couple of days of travel we find 5 pirate walruses that drink in the tavern.<br /> 
+            <b> &#x2022;</b><b> Item: 5 (Legendary)</b>  <b> &#x2022;</b> <b>Special Announcement</b>
             </p>
              <h4>?. </h4><h3>TO BE CONTINUED...</h3> <br /><span className="colorChicoNaranja"><b>  (See you next chapter)</b></span>
    
@@ -115,7 +125,7 @@ Walruses to encourage you to continue.
           <p><b> To get your Walrus, check out the collection on OpenSea</b></p>
 
 
-            <a id='button-buy' href='https://opensea.io/collection/thebigwalerus-store/' target='_blank' rel="noreferrer" > <b> BUY A WALRUS ON OPENSEA</b></a>
+            <a id='button-buy' target='_blank' rel="noreferrer" > <b> BUY A WALRUS ON OPENSEA</b></a>
             
 
           </div>

@@ -17,7 +17,7 @@ const handleClick = () => {
         <nav className='bar-nav' >
 
         <div className="botonWalrus" >
-           <NavLink to={'/TheBigWalrus'} className='flex' id='logo-nav'>
+           <NavLink to={'/'} className='flex' id='logo-nav'>
              <img src={require('./assets/Logotrasnparente.png')} alt='logo' id="centrar-img"/>
              <div>
                <h2 id='logo-big'>THE BIG</h2>
@@ -32,11 +32,11 @@ const handleClick = () => {
             <li className='nav-item'><Link to='galeria' spy={true} smooth={true} offset={0} duration={500} onClick={handleClick} >MINI GALLERY</Link></li>
             <li className='nav-item'><Link to='third-section' spy={true} smooth={true} offset={0} duration={500}  onClick={handleClick}>FAQ</Link></li>
             <li className='nav-item'><Link to='team-container' spy={true} smooth={true} offset={-90} duration={500} onClick={handleClick}>ABOUT US</Link></li>
-            <li><div><a href='https://opensea.io/collection/thebigwalerus-store/' target='_blank' rel="noreferrer" id='boton'>BUY A WALRUS</a></div></li>
+            <li><div><a  target='_blank' rel="noreferrer" id='boton'>BUY A WALRUS</a></div></li>
           </ul>
 
          <div id='botonMorsa'>
-           <a href='https://opensea.io/collection/thebigwalerus-store/' target='_blank' rel="noreferrer" >BUY A WALRUS</a>
+           <a target='_blank' rel="noreferrer" >BUY A WALRUS</a>
          </div>
 
            <div className='menu-icon' onClick={handleClick}>

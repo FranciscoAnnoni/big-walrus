@@ -114,7 +114,10 @@
     font-weight: bold;
 }
 
+/*------------Boton BUY WALRUS-----------------------*/
+/*
 #boton{
+
     font-weight: bold;
     background: #FF562E;
     padding: 11px 10px;
@@ -135,7 +138,76 @@
     border-width: 2px;
     border-style:solid;
 }
+*/
 
+#boton{
+    cursor: not-allowed;
+    font-weight: bold;
+    background: #0E0D0D;
+    padding: 11px 10px;
+    border-radius: 5px;
+    color: #F1F1F1;
+    font-family:'Inter',sans-serif;
+    margin-right: -10px;
+    color:white;
+    transition: background 150ms ease-in;
+    border-color:white;
+    border-width: 2px;
+    border-style:solid;
+    opacity: 50%;
+
+}
+
+/*---------------------------------------*/
+/*--------------------BOTON BUY WALRUS PERO EN MEDIACUERRIS------------------------------------*/
+/*
+#botonMorsa{
+    
+    font-weight: bold;
+    background: #FF562E;
+    padding: 11px 10px;
+    border-radius: 5px;
+    color: #F1F1F1;
+    font-family: 'Inter', sans-serif;
+      border-color: #FF562E;
+    border-width: 2px;
+    border-style:solid;
+    display:none;
+    margin-left: auto;
+    
+}
+
+#botonMorsa:hover {
+    background: #0E0D0D;
+    color:white;
+    transition: background 150ms ease-in;
+    border-color:white;
+    border-width: 2px;
+    border-style:solid;
+}
+*/
+#botonMorsa{
+
+    font-weight: bold;
+    background: #0E0D0D;
+    color:white;
+    transition: background 150ms ease-in;
+    padding: 11px 10px;
+    border-radius: 5px;
+    color: #F1F1F1;
+    font-family: 'Inter', sans-serif;
+    border-color:white;
+    border-width: 2px;
+    border-style:solid;
+    display:none;
+    margin-left: auto;
+    display:none;
+    cursor: not-allowed;
+    opacity: 50%;
+
+}
+
+/*-------------------------------------------------------------*/
 .bar-nav #home-a {
     color: #FF562E;
 }
@@ -156,28 +228,6 @@
 .flex-items{
     display: flex;
     justify-content: center;
-}
-#botonMorsa{
-    font-weight: bold;
-    background: #FF562E;
-    padding: 11px 10px;
-    border-radius: 5px;
-    color: #F1F1F1;
-    font-family: 'Inter', sans-serif;
-      border-color: #FF562E;
-    border-width: 2px;
-    border-style:solid;
-    display:none;
-    margin-left: auto;
-}
-
-#botonMorsa:hover {
-    background: #0E0D0D;
-    color:white;
-    transition: background 150ms ease-in;
-    border-color:white;
-    border-width: 2px;
-    border-style:solid;
 }
 
 
