@@ -7,8 +7,8 @@ function Footer() {
   return(
       <footer className='flex'>
         <div id='logos'>
-        <a href='https://opensea.io/collection/thebigwalerus-store/'  target='_blank' rel="noreferrer">
-          <img className="logo1" src={require('./assets/TheBigWalrus.png')} alt='TheBigWalrus'  />
+        <a href='https://nftcalendar.io/event/the-big-walrus/'  target='_blank' rel="noreferrer">
+          <img className="logo1" src={require('./assets/nftcalend1.png')} alt='TheBigWalrus'  />
         </a>
         <a href='https://solana.com/ecosystem/'  target='_blank' rel="noreferrer">
           <img  className="logo2" src={require('./assets/Solana.png')}  alt='Solana' />

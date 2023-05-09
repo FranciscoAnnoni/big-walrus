@@ -379,7 +379,8 @@
     }
 }
 @media screen and (max-width: 415px) {
-
+/*-----------------------------------------------*/
+/*
     #botonMorsa{
         display:flex;
         font-weight: bold;
@@ -399,6 +400,29 @@
         padding-block: 1.2px;
         text-align: center;
     }
+*/
+#botonMorsa{
+    display:flex;
+    font-weight: bold;
+    background: #0E0D0D;
+    color:white;
+
+    border-radius: 5px;
+    color: #F1F1F1;
+    font-family: 'Inter', sans-serif;
+      border-color:#F1F1F1;
+    border-width: 2px;
+    border-style:solid;
+    flex-direction: column;
+    margin-left: 130px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-block: 1.2px;
+    text-align: center;
+}
+    
+/*-------------------------------------------------*/
 
     .menu-icon{
         display:block;

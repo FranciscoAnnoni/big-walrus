@@ -1,3 +1,4 @@
+import CountdownTimer from './Components/CountdownTimer/CountdownTimer';
 import React from "react";
 import './index.css';
 import './Bar.css';
@@ -31,8 +32,10 @@ function Bar () {
           <h1>DISCOVER OUR PROJECT</h1>
 
           <p id="subtituloPrincipal"> There are no bonding curves here. Buying a Big Walrus costs <b> 0.3 SOL </b>.</p>
-          <p id="colorNaranja">(There are no whitelists or pre-sales, <b> everyone can participate</b>)</p> 
+          <p id="colorNaranja"> <b> (There are no whitelists or pre-sales, everyone can participate</b>)</p>  <br/>
+          <p id='subtitulo2'>First drop Count Down:</p><CountdownTimer countdownTimestampMs={1653420000000}/>
         </div>
+
         <br/>
         <div className='separator'/>
         <div className='flex' id='first-section'>
@@ -99,7 +102,7 @@ function Bar () {
             <h4>5. </h4><h3>THE WALRUS BAR</h3><br /> <span className="colorChicoNaranja">  <b>(5 Big Unique Walruses will be drop, Mint Price:__?)</b></span>
             <p> 
             After a couple of days of travel we find 5 pirate walruses that drink in the tavern.<br /> 
-            <b> &#x2022;</b><b> Item: 5 (Legendary)</b>  <b> &#x2022;</b> <b>Special Announcement</b>
+            <b> &#x2022;</b> Mint price:<b>_?</b> <b> &#x2022;</b> Item: 5 (  <b>Legendary</b> )  <b> &#x2022;</b> <b>Special Announcement</b>
             </p>
              <h4>?. </h4><h3>TO BE CONTINUED...</h3> <br /><span className="colorChicoNaranja"><b>  (See you next chapter)</b></span>
    
@@ -138,14 +141,14 @@ function Bar () {
                 When is the mint date?
                 <Icons.KeyboardArrowDown />
               </summary>
-              <p>The exact date is still under discussion but it will be in the month of April</p>
+              <p>The exact date is still under discussion but it will be in the month of May.</p>
             </details></li>
             <li><details>
               <summary>
                  What will the price be?
                 <Icons.KeyboardArrowDown />
               </summary>
-              <p>Te minting price is 0.3 SOL. The Big Walrus collection will be published on the @openSea page, on the Solana network. </p>
+              <p>The minting price is 0.3 SOL. The Big Walrus collection will be published on the @openSea page, on the Solana network. </p>
             </details></li>
             <li><details>
               <summary>
@@ -159,7 +162,7 @@ function Bar () {
                How many Big Walruses will be available?
                 <Icons.KeyboardArrowDown />
               </summary>
-              <p>The initial amount of walruses published in open sea will be 25 walruses, to see more information check the Road Map </p>
+              <p>The initial amount of walruses published in open sea will be 25 walruses, to see more information check the Road Map.</p>
             </details></li>
             <li><details>
               <summary>
@@ -181,7 +184,7 @@ function Bar () {
               <li><h4>STEVEN:</h4>  <p>Addicted to the series but draws well</p></li>
               
               <img src={require('./assets/Santiag.png')} alt='morsa' id="Edward-Teach"/>
-              <li><h4>BNGOL:</h4> <p>Drinks "mate" all day, but 's smart.</p></li>
+              <li><h4>BNGOL:</h4> <p>Drinks "mate" all day, and 's smart.</p></li>
               <img src={require('./assets/Camila.png')} alt='morsa' id="Field-Garmet"/>
               <li><h4>LITTLE STARFISH:</h4> <p>Loves to be in the tavern with the walruses</p></li>
               

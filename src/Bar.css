@@ -42,7 +42,7 @@ color: #F1F1F1;
 font-family: 'Barlow Semi Condensed', sans-serif;
 font-size: 20px;
 margin-top: -100px;
-padding: 0px 10px 0px 30px;
+padding: 0px 10px 70px 30px;
 
 }
 
@@ -57,7 +57,7 @@ padding: 0px 10px 0px 30px;
 }
 
 #below-banner p {
-    font-size: 15px;
+    font-size: 18px;
     margin-bottom: 40px;
     margin-top: 10px;
         margin-left: 15px;
@@ -80,6 +80,8 @@ padding: 0px 10px 0px 30px;
     color: #FF562E;
     transition: background 150ms ease-in;
 }
+
+
 
 /*configuracion del terxto debajo de BUY WALRUS*/
 #ProgetDefinition{
@@ -104,6 +106,23 @@ line-height:40px;
     color: #FF562E;
     font-size: 14px;
     display: inline;
+}
+
+p#subtitulo2{
+    display:inline;
+    font-weight: initial;
+    font-size: 26px;
+    line-height:70px;
+    margin-right: 50px;
+    margin-left: 70px;
+}
+.countdown-timer {
+    display:block;
+    display:inline;
+    font-weight: initial;
+    margin-top: 16px;
+    padding: 5px 5px 7px 5px;
+
 }
 
 
@@ -481,6 +500,20 @@ display: flex;
 
 @media screen and (max-width: 1020px) {
 
+    .countdown-timer {
+        padding: 0px 0px 0px 0px;
+        display: flex;
+        margin-top: 16px;
+    }
+    p#subtitulo2{
+        display: flex;
+        justify-content: center !important;
+        align-items: center !important;
+        margin: auto;
+        font-size: 25px;
+        line-height:50px;
+    }
+    
     #DoctorGrant{
         display: block;
         justify-content: center !important;
@@ -512,7 +545,9 @@ display: flex;
  
     }
 
-    
+    #below-banner{
+      padding-bottom: 50px;
+    }
     #below-banner h1 {
         font-size: clamp(50px, 1em, 80px);
     }
@@ -598,7 +633,6 @@ display: flex;
     }
 
     .footer-buttons {
-
         margin-left: 0;
     }
 
@@ -607,8 +641,12 @@ display: flex;
     }
 
     #below-banner{
-        text-align: center;
+ 
+        text-align: center !important;
+        padding-bottom:60px ;
     }
+
+
 
 #below-banner h1 {
     margin-top: 32px;
@@ -623,10 +661,14 @@ display: flex;
 
 #below-banner p {
     font-size: 15px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     margin-top: 10px;
     margin-left: 0px;
-
+}
+p#subtitulo2{
+    font-size: 20px;
+margin-top: -40px;
+margin-bottom: -20px;
 }
 
 #subtituloPrincipal {
@@ -804,4 +846,11 @@ div#below-images{
 
     padding: 4px 6px;
 }
+}
+
+@media screen and (max-width: 361px) {
+    #below-banner{
+        padding-bottom: 80px;
+      }
+    
 }
