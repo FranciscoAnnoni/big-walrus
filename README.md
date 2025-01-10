@@ -8,7 +8,7 @@ Welcome to **The Big Walrus**—a unique NFT project where art and technology me
 
 The Big Walrus is an ongoing project where we designed a web page from scratch to showcase our NFTs, providing users with an immersive journey into the world of The Big Walrus. The website was initially designed in **Figma** for visualization and prototyping. Once the design was approved, we brought it to life using **React**, leveraging its powerful UI capabilities to create a seamless and interactive user experience.
 
-**Figma Design Link**: ![View the original design]([https://www.figma.com/your_project_link](https://www.figma.com/design/vt7GMGhXnPyfti92lKdYJz/BIG-WALRUS?node-id=0-1&t=QxEOyY1bFIENtMDz-1)) 
+**Figma Design Link**: https://www.figma.com/your_project_link](https://www.figma.com/design/vt7GMGhXnPyfti92lKdYJz/BIG-WALRUS?node-id=0-1&t=QxEOyY1bFIENtMDz-1
 
 ### How the Idea Came About
 The idea for "The Big Walrus" emerged from our shared passion for wildlife conservation, digital art, and the growing trend of NFTs. After brainstorming, we decided to create an NFT collection that not only showcases art but also spreads awareness for marine life conservation, focusing on the majestic walrus.
